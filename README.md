@@ -46,18 +46,24 @@ The dataset consists of 2 files:
 Now comes the training part. To train your model defined in `model.py` we will run the `train.py` file. 
 **Remember** training may take longer time to run depends on the congiguration of the machine. Each epoch takes around 15-20 mins.
 
-training need 3 arguments:
-1.
-2.
-3.
-4.
+training need 4 arguments:
+1. textPath
+2. trainPath
+3. devPath
+4. features
+
+```
+python train.py --textPath /Path to Textfile/ --trainPath /Path to trainfile/  --devPath /Path to valimages/ --feat /Path to features/
+```
 
 ### Evaluation:
 After training we will evaluate our model on test dataset. Run the following command:
-
+```
+python evaluate.py --testPath /Path to testfile/
+```
 
 ### Architechture:
 
 The model Architechture:
 
-
+![MODEL ARCHITECHTURE](https://github.com/arpitj07/Automatic-Image-Caption-Generation/blob/master/Model/model.png)
