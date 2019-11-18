@@ -53,7 +53,7 @@ training need 4 arguments:
 4. features
 
 ```
-python train.py --textPath /Path to Textfile/ --trainPath /Path to trainfile/  --devPath /Path to valimages/ --feat /Path to features/
+python train.py --textPath /Path to Textfile/ --trainPath /Path to trainfile/  --devPath /Path to valimages/ --features /Path to features/
 ```
 
 ### Evaluation:
