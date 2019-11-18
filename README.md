@@ -43,9 +43,18 @@ The dataset consists of 2 files:
 
 
 ### Training:
+Now comes the training part. To train your model defined in `model.py` we will run the `train.py` file. 
+**Remember** training may take longer time to run depends on the congiguration of the machine. Each epoch takes around 15-20 mins.
 
+training need 3 arguments:
+1.
+2.
+3.
+4.
 
 ### Evaluation:
+After training we will evaluate our model on test dataset. Run the following command:
+
 
 ### Architechture:
 
