@@ -11,12 +11,12 @@ I would like to thank **Jason Brownlee** for his wonderful [blog](https://machin
 
 ## Content:
 
-- [Dependencies]()
-- [Dataset]()
-- [Helper Functions]()
-- [Training]()
-- [Testing & Predictions]()
-- [Visaulisation]()
+- [Dependencies](https://github.com/arpitj07/Automatic-Image-Caption-Generation/blob/master/README.md#dependencies)
+- [Dataset](https://github.com/arpitj07/Automatic-Image-Caption-Generation/blob/master/README.md#dataset)
+- [Helper Functions](https://github.com/arpitj07/Automatic-Image-Caption-Generation/blob/master/README.md#helper-functions)
+- [Training](https://github.com/arpitj07/Automatic-Image-Caption-Generation/blob/master/README.md#training)
+- [Evaluation](https://github.com/arpitj07/Automatic-Image-Caption-Generation/blob/master/README.md#evaulation)
+- [Architechture](https://github.com/arpitj07/Automatic-Image-Caption-Generation/blob/master/README.md#architechture)
 
 
 ### [WARNING]:
@@ -35,7 +35,11 @@ pip3 install -r requirements.txt for python 3.x
 All the helper functions needed for this project are in `utility.py` file.
 
 ### Dataset:
-The dataset can be downloaded from `Kaggle` from [here](https://www.kaggle.com/ming666/flicker8k-dataset).
+The dataset can be downloaded from `Kaggle` from [here](https://www.kaggle.com/ming666/flicker8k-dataset). You can use the already created feature file [features extracted from images] located in `Features` folder. Its compressed you need to unzip it.
+
+The dataset consists of 2 files:
+1) Images 
+2) Description and Image IDs
 
 
 ### Training:
@@ -43,4 +47,8 @@ The dataset can be downloaded from `Kaggle` from [here](https://www.kaggle.com/m
 
 ### Evaluation:
 
-### Visualisation:
+### Architechture:
+
+The model Architechture:
+
+
